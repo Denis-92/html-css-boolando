@@ -100,3 +100,37 @@ header ul li {
 .margin-main {
     padding-top: 7%;
 }
+
+/* /MAIN */
+
+
+/* FOOTER */
+
+/* Footer - colore sfondo e colore font */
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding-top: 25px;
+}
+
+/* Ragione sociale - dimensione testo */
+footer h2 {
+    font-size: 0.8rem;
+}
+
+/* Indicazione collegamenti social - dimensione testo */
+footer h3 {
+    font-size: 0.7rem
+}
+
+/* Link aspetti legali - dimensione testo */
+.aspetti-legali {
+    font-size: 0.6rem;
+}
+
+/* Link aspetti legali - spazi */
+.aspetti-legali > a {
+    padding: 10px 10px 35px 0;
+}
+
+/* /FOOTER */
