@@ -67,3 +67,7 @@ header ul li {
 #logo-boolean img {
     width: 100px;
 }
+
+.svg-item {
+    height: 50%;
+}
