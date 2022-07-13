@@ -47,13 +47,13 @@ header {
     background-color: orange;
     position: fixed;
     width: 100%;
-    height: 10%;
+    height: 8%;
     color: white;
 }
 
 /* spazio dal top del browser */
 .top-header {
-    padding-top: 1.5%;
+    padding-top: 1%;
 }
 
 /* stile elenco (tipo abbigliamento) */
@@ -68,6 +68,27 @@ header ul li {
     width: 100px;
 }
 
+/* misura icone */
 .svg-item {
     height: 50%;
+}
+
+/* /HEADER */
+
+
+/* MAIN */
+
+/* contenitore per articoli */
+.articolo {
+    max-width: 300px;
+}
+
+/* immagine all'interno del contenitore */
+.articolo > img {
+    width: 100%;
+}
+
+/* spazio tra main e header */
+.margin-main {
+    padding-top: 7%;
 }
