@@ -27,3 +27,12 @@ body {
 }
 
 /* ----- CONTENT ----- */
+
+/* HEADER */
+
+header {
+    background-color: orange;
+    position: fixed;
+    width: 100%;
+}
+
