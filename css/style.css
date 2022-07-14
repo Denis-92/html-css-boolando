@@ -163,6 +163,23 @@ main h2
     padding: 0 8px;
 }
 
+/* immagine alternativa */
+.immagine-alternativa {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* proprietà hover per cambiare contenuti */
+.articolo:hover .immagine-alternativa
+    {
+    opacity: 1;
+}
+
+.articolo:hover .cuore-preferiti {
+    color: red;
+}
 
 /* /MAIN */
 
