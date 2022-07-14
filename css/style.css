@@ -21,13 +21,15 @@ a {
 
 /* ----- UTILITY ----- */
 
-.flex {
-    display: flex;
-}
 
 .container {
     max-width: 1000px;
     margin: 0 auto;
+}
+
+/* PROPRIETA' FLEX */
+.flex {
+    display: flex;
 }
 
 .space-between {
@@ -41,6 +43,7 @@ a {
 .flex-wrap {
     flex-wrap: wrap;
 }
+/* /PROPRIETA' FLEX */
 
 /* ----- CONTENT ----- */
 
@@ -102,22 +105,26 @@ header ul li {
     padding-top: 7%;
 }
 
+/* sticker sopra immagine */
 .promozione {
     position: absolute;
     bottom: 80px;
     left: 0;
 }
 
+/* prezzo scontato */
 .prezzo {
     color: red;
 }
 
+/* percentuale sconto */
 .sconto {
     color: white;
     background-color: red;
     padding: 5px;
 }
 
+/* dimensione testo negli articoli */
 .marca,
 .prezzo,
 .no-sconto,
@@ -127,11 +134,13 @@ header ul li {
     font-size: 0.7rem;
 }
 
+/* nome del prodotto */
 main h2
     {
     font-size: 0.8rem;
 }
 
+/* etichetta sostenibilità */
 .sostenibile {
     background-color: green;
     color: white;
@@ -139,9 +148,11 @@ main h2
     padding: 5px;
 }
 
+/* prezzo precedente allo sconto */
 .no-sconto {
     text-decoration: line-through;
 }
+
 
 /* /MAIN */
 
