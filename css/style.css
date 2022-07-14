@@ -88,7 +88,7 @@ header ul li {
 .articolo {
     flex-basis: 300px;
     margin: 10px;
-
+    position: relative;
 }
 
 /* immagine all'interno del contenitore */
@@ -103,6 +103,20 @@ header ul li {
 
 /* /MAIN */
 
+.promozione {
+    position: absolute;
+    bottom: 200px;
+    left: 20px;
+}
+
+.prezzo {
+    color: red;
+}
+
+.sconto {
+    color: white;
+    background-color: red;
+}
 
 /* FOOTER */
 
@@ -111,6 +125,7 @@ footer {
     background-color: #1a1a1a;
     color: white;
     padding-top: 25px;
+    border-bottom: 1px solid white;
 }
 
 /* Ragione sociale - dimensione testo */
