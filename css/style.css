@@ -102,12 +102,10 @@ header ul li {
     padding-top: 7%;
 }
 
-/* /MAIN */
-
 .promozione {
     position: absolute;
-    bottom: 200px;
-    left: 20px;
+    bottom: 80px;
+    left: 0;
 }
 
 .prezzo {
@@ -117,7 +115,36 @@ header ul li {
 .sconto {
     color: white;
     background-color: red;
+    padding: 5px;
 }
+
+.marca,
+.prezzo,
+.no-sconto,
+.sostenibile,
+.sconto
+    {
+    font-size: 0.7rem;
+}
+
+main h2
+    {
+    font-size: 0.8rem;
+}
+
+.sostenibile {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.no-sconto {
+    text-decoration: line-through;
+}
+
+/* /MAIN */
+
 
 /* FOOTER */
 
