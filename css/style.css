@@ -103,6 +103,7 @@ header ul li {
 /* spazio tra main e header */
 .margin-main {
     padding-top: 7%;
+    padding-bottom: 20px;
 }
 
 /* sticker sopra immagine */
@@ -115,6 +116,7 @@ header ul li {
 /* prezzo scontato */
 .prezzo {
     color: red;
+    font-weight: bold;
 }
 
 /* percentuale sconto */
